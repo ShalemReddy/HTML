@@ -56,3 +56,4 @@ every option will have value
  maxlength
  size
  pattern : uses regular expressions
+ this is allabout forms
