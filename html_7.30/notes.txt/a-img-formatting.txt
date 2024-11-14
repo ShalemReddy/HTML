@@ -27,3 +27,4 @@ Formatting Tags are used to format the text
   mark -- used to mark / highlight the text
   pre -- used to write preformatted text
   code -- used to write codes
+this all about formating tags.
