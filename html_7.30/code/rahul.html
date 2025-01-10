@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: yellowgreen;
+            border: 5px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <center><h1 style="  height: 40px;width: 500px; background-color: cyan; border: 5px solid red;">TIRUMALASETTY'S FAMILY</h1><hr></center>
+        <table width="500px" border="5" height="600px">
+            <tr>
+                <th rowspan="5">
+                    <div style=" display: flex; flex-direction: row; margin-left: 200px;">
+                        <div style=" display: flex; flex-direction: column; margin-top: 100px;">
+                            <button>Add</button><br>
+                            <button>Update</button><br>
+                            <button>Delete</button>
+                        </div>
+                    </div>    
+                </th>
+            </tr>
+            <tr>
+                <th colspan="20">
+                    <div style="flex-direction: column;">
+                        <label for="fn">First Name    :</label>
+                            <input type="text"placeholder="first name" name="fname" id="fn">
+                    </div>
+                    <div>
+        <label for="ln">Last Name       :    </label>
+            <input type="text"placeholder="last name" name="lname" id="ln"></div></th>
+            <tr>
+                <th>
+                    <div>
+                        <form action="main.py">
+                            <input type="hidden" name="location" value="hyd">
+                           <div>
+                             <p>Select gender:</p>
+                            <input type="radio" name="gen" id="m">
+                            <label for="m">Male</label>
+                            <input type="radio" name="gen" id="f">
+                            <label for="f">Female</label>
+                    </div></form></div>
+                </th>
+            </tr>
+        </div>
+                <tr>
+                    <th>
+                        <div>
+                            <label for="dob">Date of Birth :  </label>
+                            <input type="date" name="dob" id="dob">
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <div>
+                            <label for="qualification">Qualification : </label>
+                            <input type="text"placeholder="eg: B.tech" name="qualification" id="qualification">
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <div>
+                            <label for="em">Email:         </label>
+                            <input type="email" placeholder="eg : rahul@gmail.com" name="em" id="em">
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <div>
+                            <label for="em">Mobile Number:</label>
+                            <input type="integer" placeholder="eg : 9642268490" name="em" id="em">
+                        </div>
+                    </th>
+                </tr>
+            </tr>
+            
+        </table>
+</body>
+</html>
+       
